@@ -33,6 +33,7 @@ controller 只做路由分配，不做具体业务，不直接操作数据库
 
 
 ##样式风格
+#f{} 左括号不要换行，每个方法接受必须换行
 #命名空间 namespace和use
 namespace 声明后必须有一个空行
 use 后面必须一个空行
@@ -40,6 +41,8 @@ use 后面必须一个空行
 #继承extend 和实现implement 必须和class name 一行
 #属性和方法必须声明可见性，public private protected
 #当用抽象类abstract 和终结final进行类声明时必须放在可见性前面，当声明静态类时必须放在可见性后面
+#参数和（）以及{}以及+ - 等 之间留一个空格
+
 
 
 
