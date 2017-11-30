@@ -4,6 +4,8 @@
 #使用接口，便于后期的扩展和可读性
 #控制器拒绝直接数据库的操作
 
+##基本约定
+
 #文件
 纯文件使用<?php 开头 ，去掉结束符的使用 ?>
 文件编码使用无BOM的的utf-8编码
@@ -28,6 +30,16 @@
 Model只做简单查询
 controller 只做路由分配，不做具体业务，不直接操作数据库
 添加server层和子层负责具体业务和数据库查询
+
+
+##样式风格
+#命名空间 namespace和use
+namespace 声明后必须有一个空行
+use 后面必须一个空行
+
+#继承extend 和实现implement 必须和class name 一行
+#属性和方法必须声明可见性，public private protected
+#当用抽象类abstract 和终结final进行类声明时必须放在可见性前面，当声明静态类时必须放在可见性后面
 
 
 
